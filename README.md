@@ -17,18 +17,16 @@ The default I²C address of [SCD30](https://sensirion.com/products/catalog/SCD30
 
 ### Connecting the Sensor
 
-Your sensor has the 7 different connectors: VDD, GND, SCL, SDA, RDY, PWM, SEL.
+Your sensor has the 5 different connectors: VDD, GND, SCL, SDA, SEL.
 Use the following pins to connect your SCD30:
 
 | *SCD30* | *Cable Color*  |   *Raspberry Pi*   |
 | :----------------: | -------------- | ------------------ |
-| VDD |  | Pin 1
-| GND |  | Pin 6
-| SCL |  | Pin 5
-| SDA |  | Pin 3
-| RDY |  | Pin 
-| PWM |  | Pin 
-| SEL |  | Pin 9
+| VDD | red | Pin 1
+| GND | black | Pin 6
+| SCL | yellow | Pin 5
+| SDA | green | Pin 3
+| SEL | blue | Pin 9
 
 
 <img src="images/raspi-i2c-pinout-3.3V-SEL.png" width="400px">
@@ -40,13 +38,13 @@ Use the following pins to connect your SCD30:
 
 | *Pin* | *Cable Color* | *Name* | *Description*  | *Comments* |
 |-------|---------------|:------:|----------------|------------|
-| 1 |  |VDD | Supply Voltage | 3.3 to 5.5V
-| 2 |  |GND | Ground | 
-| 3 |  |SCL | I2C: Serial clock input | 
-| 4 |  |SDA | I2C: Serial data input / output | 
-| 5 |  |RDY |  | High when data is available
-| 6 |  |PWM |  | 
-| 7 |  |SEL | Interface select | Interface select; Pull to ground or floating for I2c
+| 1 | red |VDD | Supply Voltage | 3.3 to 5.5V
+| 2 | black |GND | Ground | 
+| 3 | yellow |SCL | I2C: Serial clock input | 
+| 4 | green |SDA | I2C: Serial data input / output | 
+| 5 |  |RDY |  | High when data is available - do not connect
+| 6 |  |PWM |  | do not connect
+| 7 | blue |SEL | Interface select | Interface select; Pull to ground or floating for I2c
 ### Raspberry Pi
 
 - [Install the Raspberry Pi OS on to your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
