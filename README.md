@@ -42,9 +42,9 @@ Use the following pins to connect your SCD30:
 | 2 | black |GND | Ground | 
 | 3 | yellow |SCL | I2C: Serial clock input | 
 | 4 | green |SDA | I2C: Serial data input / output | 
-| 5 |  |RDY |  | High when data is available - do not connect
+| 5 |  |RDY | High when data is available | do not connect
 | 6 |  |PWM |  | do not connect
-| 7 | blue |SEL | Interface select | Interface select; Pull to ground or floating for I2c
+| 7 | blue |SEL | Interface select | Pull to ground or floating for I2C
 ### Raspberry Pi
 
 - [Install the Raspberry Pi OS on to your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
