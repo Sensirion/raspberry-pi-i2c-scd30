@@ -106,6 +106,7 @@ int16_t scd30_stop_periodic_measurement() {
     if (local_error != NO_ERROR) {
         return local_error;
     }
+    sensirion_i2c_hal_sleep_usec(10 * 1000);
     return local_error;
 }
 
@@ -122,6 +123,7 @@ int16_t scd30_set_measurement_interval(uint16_t interval) {
     if (local_error != NO_ERROR) {
         return local_error;
     }
+    sensirion_i2c_hal_sleep_usec(10 * 1000);
     return local_error;
 }
 
@@ -204,6 +206,7 @@ int16_t scd30_activate_auto_calibration(uint16_t do_activate) {
     if (local_error != NO_ERROR) {
         return local_error;
     }
+    sensirion_i2c_hal_sleep_usec(10 * 1000);
     return local_error;
 }
 
@@ -241,6 +244,7 @@ int16_t scd30_force_recalibration(uint16_t co2_ref_concentration) {
     if (local_error != NO_ERROR) {
         return local_error;
     }
+    sensirion_i2c_hal_sleep_usec(10 * 1000);
     return local_error;
 }
 
@@ -279,6 +283,7 @@ int16_t scd30_set_temperature_offset(uint16_t temperature_offset) {
     if (local_error != NO_ERROR) {
         return local_error;
     }
+    sensirion_i2c_hal_sleep_usec(10 * 1000);
     return local_error;
 }
 
@@ -337,6 +342,7 @@ int16_t scd30_set_altitude_compensation(uint16_t altitude) {
     if (local_error != NO_ERROR) {
         return local_error;
     }
+    sensirion_i2c_hal_sleep_usec(10 * 1000);
     return local_error;
 }
 
