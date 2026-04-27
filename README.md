@@ -97,7 +97,7 @@ If you run `./scd30_i2c_example_usage` but do not get sensor readings but someth
 ```
 Error executing stop_periodic_measurement(): -1
 Error executing soft_reset(): -1
-Error executing read_firmware_version(): -1
+Error executing read_serial_number(): -1
 ...
 ```
 then go through the below troubleshooting steps.

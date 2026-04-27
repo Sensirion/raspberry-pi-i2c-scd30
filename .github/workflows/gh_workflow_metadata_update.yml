@@ -3,7 +3,7 @@ name: Driver Index Metadata Update
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   driver-index-metadata-update:

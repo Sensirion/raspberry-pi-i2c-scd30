@@ -3,7 +3,7 @@
  *
  * Generator:     sensirion-driver-generator 1.6.1
  * Product:       scd30
- * Model-Version: 1.1.0
+ * Model-Version: 1.1.1
  */
 /*
  * Copyright (c) 2026, Sensirion AG
@@ -51,6 +51,14 @@ int main(void) {
     scd30_stop_periodic_measurement();
     scd30_soft_reset();
     sensirion_hal_sleep_us(2000000);
+    int8_t serial_number[32] = {0};
+
+    error = scd30_read_serial_number(serial_number, 32);
+    if (error != NO_ERROR) {
+        printf("error executing read_serial_number(): %i\n", error);
+        return error;
+    }
+    printf("serial_number: %s\n", serial_number);
     uint8_t major = 0;
     uint8_t minor = 0;
 

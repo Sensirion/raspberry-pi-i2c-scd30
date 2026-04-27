@@ -3,7 +3,7 @@
  *
  * Generator:     sensirion-driver-generator 1.6.1
  * Product:       scd30
- * Model-Version: 1.1.0
+ * Model-Version: 1.1.1
  */
 /*
  * Copyright (c) 2026, Sensirion AG
