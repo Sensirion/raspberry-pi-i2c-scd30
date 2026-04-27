@@ -5,6 +5,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased] 
 
+## [1.1.1] - 2026-4-27
+
+### Added
+
+- Added `read_serial_number` to example usage
 ## [1.1.0] - 2026-4-24
 
 ### Added
@@ -21,7 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial SCD30 driver release
 
-[Unreleased]: https://github.com/Sensirion/raspberry-pi-i2c-scd30/compare/1.1.0...HEAD
+[Unreleased]: https://github.com/Sensirion/raspberry-pi-i2c-scd30/compare/1.1.1...HEAD
+[1.1.1]: https://github.com/Sensirion/raspberry-pi-i2c-scd30/compare/1.1.0...1.1.1
 [1.1.0]: https://github.com/Sensirion/raspberry-pi-i2c-scd30/compare/1.0.0...1.1.0
 [1.0.0]: https://github.com/Sensirion/raspberry-pi-i2c-scd30/compare/0.1.0...1.0.0
 [0.1.0]: https://github.com/Sensirion/raspberry-pi-i2c-scd30/releases/tag/0.1.0
